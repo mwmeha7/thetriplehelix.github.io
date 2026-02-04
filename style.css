@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header, footer, nav, section, article, aside {
+  border: 2px solid #999;
+  padding: 10px;
+}
+
+/* Page header */
+body > header {
+  background: #e6f0ff;
+}
+
+/* Main layout */
+main {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Left content area */
+.content {
+  flex: 3;
+  background: #eaffea;
+}
+
+/* Article */
+article {
+  background: #ffdede;
+  margin-top: 10px;
+}
+
+/* Inside article */
+.article-body {
+  display: flex;
+  gap: 10px;
+}
+
+.article-body p {
+  flex: 2;
+  background: #e6e0ff;
+}
+
+aside {
+  flex: 1;
+  background: #fff3c4;
+}
+
+/* Right sidebar */
+.sidebar {
+  flex: 1;
+  background: #fff0cc;
+}
+
+/* Page footer */
+body > footer {
+  background: #d9f2a6;
+}
