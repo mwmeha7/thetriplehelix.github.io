@@ -1,3 +1,6 @@
+html, body {
+  height: 100%;
+}
 body {
   background-image: url("background.jpg");
   background-size: cover;      /* fills the screen */
@@ -20,7 +23,7 @@ header, footer, nav, section, article, aside {
 
 /* Page header */
 body > header {
-  background: #e6f0ff;
+  background: rgba(230, 240, 255, 0.85);
 }
 
 /* Main layout */
@@ -33,7 +36,7 @@ main {
 /* Left content area */
 .content {
   flex: 3;
-  background: #eaffea;
+  background:  rgba(234, 255, 234, 0.7);
 }
 
 /* Article */
@@ -50,21 +53,21 @@ article {
 
 .article-body p {
   flex: 2;
-  background: #e6e0ff;
+  background: rgba(255, 222, 222, 0.7);
 }
 
 aside {
   flex: 1;
-  background: #fff3c4;
+  background: rgba(255, 243, 196, 0.85);
 }
 
 /* Right sidebar */
 .sidebar {
   flex: 1;
-  background: #fff0cc;
+  background: rgba(255, 240, 204, 0.85);
 }
 
 /* Page footer */
 body > footer {
-  background: #d9f2a6;
+  background: rgba(217, 242, 166, 0.85);
 }
