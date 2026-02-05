@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 body {
-  background-image: url("https://picsum.photos/1920/1080");
+  background-image: url("background.jpg");
   background-size: cover;      /* fills the screen */
   background-repeat: no-repeat;
   background-position: center;
