@@ -1,8 +1,1 @@
----
-layout: home
-title: Home
----
-
-# Welcome
-
-This is my blog.
+Delete index.md
