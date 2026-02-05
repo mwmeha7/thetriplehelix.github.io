@@ -41,7 +41,7 @@ main {
 
 /* Article */
 article {
-  background: #ffdede;
+  background: rgba(255, 222, 222, 0.7);
   margin-top: 10px;
 }
 
